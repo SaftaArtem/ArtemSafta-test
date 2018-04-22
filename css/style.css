@@ -1,0 +1,19 @@
+body {
+  font-size: 15px;
+  background: #aaa;
+}
+.container .main {
+  background: rgb(80, 168, 154);
+  margin-bottom: 20px;
+}
+
+.row {
+  background: #fff;
+  margin-bottom: 20px;
+}
+.container .row .green {
+  background: greenyellow;
+}
+.red {
+  background: red;
+}
