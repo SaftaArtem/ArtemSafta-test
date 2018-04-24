@@ -1,6 +1,5 @@
 <?php
 require_once('getRemoteFileSize.php');
-require_once('valid.php');
 $url = $_POST['url'];
 $size = getRemoteFileSize($url);
 $urlHeaders = @get_headers($url);
