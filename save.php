@@ -4,7 +4,7 @@ session_start();
 $state = $_SESSION['data'];
 
 function set_tab_info($name, $status, $state, $recomendation){
-  $file = 'tab.csv';
+  $file = 'tab.xls';
   $tofile = "'$name'; '$status';'$state';'$recomendation'; \n";
   $bom = "\xEF\xBB\xBF";
   file_put_contents($file, $bom . $tofile . file_get_contents($file)); 
@@ -112,4 +112,4 @@ foreach ($state as $key => $value) {
 }
 ?>
 <P>Таблица успешно сохранена</P>
-<a href="tab.csv" download>Скачать файл с таблицей</a>
+<a href="tab.xls" download>Скачать файл с таблицей</a>

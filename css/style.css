@@ -6,7 +6,9 @@ body {
   background: rgb(80, 168, 154);
   margin-bottom: 20px;
 }
-
+.container {
+  margin-bottom: 150px;
+}
 .row {
   background: #fff;
   margin-bottom: 20px;
